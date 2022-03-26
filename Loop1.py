@@ -1,0 +1,10 @@
+
+for i in range(1,10):
+    str_1=''
+    for j in range(1,i+1):
+        str_1+=str(j)
+
+    str_1=str_1+'*'+'8' + ' + '+ str(i)
+    sum=eval(str_1)
+    print(str_1+' = '+str(sum))
+   
